@@ -1005,7 +1005,8 @@ h2.color-white {
   cursor: pointer;
   background: #ef5a1b;
   color: transparent;
-  bottom: -8vh;
+  bottom: -12vh;
+  z-index: 10;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   padding: 0;
