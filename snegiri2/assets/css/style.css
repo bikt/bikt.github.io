@@ -1143,4 +1143,6 @@ h2.color-white {
   color: #ffffff;
   line-height: 1.5;
   margin-bottom: 25px;
+  position: absolute;
+  bottom: 0;
 }
