@@ -836,6 +836,23 @@ h2.color-white {
 .form-wrap2 button:hover {
   background: #9bdb57;
 }
+.primary-button {
+  height: 60px;
+  background: #ff5b17;
+  border: 0;
+  outline: none;
+  color: white;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  line-height: 60px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+.primary-button:hover {
+  background: #ff6c28;
+}
 @media screen and (max-width: 1023px) {
   .form-wrap,
   .form-wrap2 {
