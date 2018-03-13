@@ -501,6 +501,9 @@ h2.color-white {
   font-family: 'font-light';
   font-size: 20px;
 }
+.main .inner .block .extra:last-child {
+  background: #ff5b17;
+}
 @media screen and (max-width: 1023px) {
   .main {
     padding: 30px 10px;
