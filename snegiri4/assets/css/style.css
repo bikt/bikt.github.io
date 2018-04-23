@@ -501,9 +501,9 @@ h1 {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
-    font-size: 15px;
-    padding: 10px;
-    font-family: 'font';
+    font-size: 18px;
+    padding: 20px 15px;
+    font-family: 'font-roman';
   }
   .photos-wrap .photo:nth-child(3) {
     padding-left: 0;
