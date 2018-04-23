@@ -970,9 +970,9 @@ h2 span {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
-    font-size: 15px;
-    padding: 10px;
-    font-family: 'font';
+    font-size: 18px;
+    padding: 20px 15px;
+    font-family: 'font-roman';
   }
 }
 .contacts {
