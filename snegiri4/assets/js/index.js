@@ -7,11 +7,6 @@ $(document).ready(function() {
 
   });
 
-
-  $("#phone").inputmask({"mask": "+7 (999) 999 - 99 - 99"});
-  $("#phone2").inputmask({"mask": "+7 (999) 999 - 99 - 99"});
-  $("#phone3").inputmask({"mask": "+7 (999) 999 - 99 - 99"});
-
   $(".regular").slick({
     dots: true,
     infinite: true,
