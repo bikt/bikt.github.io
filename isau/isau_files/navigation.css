@@ -1,0 +1,235 @@
+/* Design by VTEM http://www.vtem.net  All Rights Reserved */
+/*##################### NAVIGATION SECTION #####################*/
+/* Pathway Breadcrumbs is Module*/	
+   #vt_pathway{
+   background:url(../images/pathway.png) left 3px no-repeat;
+   height:35px;
+   line-height:35px;
+   padding:0 5px 0 35px;
+   display:block;
+   overflow:hidden;
+   margin:8px 0px 0px 10px;
+   width:550px;
+   float:left;
+   color:#aa5534;
+   }
+	.breadcrumbs img{display:none; visibility:hidden;}
+	a.pathway:link,
+	a.pathway:visited,
+	a.pathway:active{
+	text-decoration:none; 
+	background:url(../images/pathway_arrow.png) right center no-repeat;
+	padding:5px 15px 5px 0;
+	margin-right:5px;
+	overflow:hidden;
+ 	}
+   
+/* level 1 or Top Level*/
+.menu , .mostread, #tienda_categories_mod{ 
+	text-align: left;
+	font-weight: bold;
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.menu a,.menu a:link,.menu a:visited, #current ul li a,
+#tienda_categories_mod a,#tienda_categories_mod a:link,#tienda_categories_mod a:visited
+{
+	color: #666;
+	display: block;
+	text-decoration:none;
+	padding:8px 8px 8px 15px;
+	background:url(../images/li_arrow2.png) left center no-repeat;
+}
+#vt_drawer .mostread a{ font-weight:normal;}
+#vt_footer_wrapper ul li a{
+	color:#999;
+	font-weight:normal;
+	padding:8px 8px 8px 15px;
+	background:url(../images/li_arrow.png) left center no-repeat;
+}
+#vt_footer_wrapper ul li a:hover,
+#vt_footer_wrapper ul li.active a{ color:#bbb; text-decoration:underline;}
+#vt_nav_left ul.menu li, #vt_nav_right ul.menu li, .mostread li{background:url(../images/vt_bg_li_menu.png) left bottom repeat-x;}
+#vt_nav_left ul.menu li ul li,
+#vt_nav_right ul.menu li ul li{background:url(../images/vt_bg_li_menu.png) left top repeat-x;}
+
+/* end of Level 1 */
+
+/* Level 2 Grey */
+.menu ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.menu ul li a,.menu ul li a:link,.menu ul li a:visited,#current ul li a{
+	color:#666;
+	display: block;
+	background-position: left center;
+	background-color:transparent;
+}
+/* End of Level 2 */
+#vtem_menu ul.menu_vtem_nav{
+	background:none;
+	list-style:none;
+	width:100%;
+	display: flex;
+}
+#vtem_menu ul.menu_vtem_nav li a,
+#vtem_menu ul.menu_vtem_nav li a:link,
+#vtem_menu ul.menu_vtem_nav li a:visited{/*пункты главного меню цвета ссылок*/
+	font-weight:bold;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:block;
+	cursor:pointer;
+	padding:0px 0px 0px 11px;/*padding left from main menu*/
+	color:#aa5534;
+	font-weight:bold;
+	font-size:10px;
+	_float:left;
+	width: 100%;
+    text-align: center;
+}
+#vtem_menu ul.menu_vtem_dropline li a,
+#vtem_menu ul.menu_vtem_dropline li a:link,
+#vtem_menu ul.menu_vtem_dropline li a:visited{
+	padding:25px 5px 24px 20px;
+	font-weight:bold;
+	text-transform:none;
+	font-size:14px;
+	color:#bbb;
+	display:block;
+}
+#vtem_menu ul.menu_vtem_dropline li ul li a,
+#vtem_menu ul.menu_vtem_dropline li ul li a:link,
+#vtem_menu ul.menu_vtem_dropline li ul li a:visited{
+	padding:5px 5px 5px 5px;
+	font-weight:normal;
+	text-transform:none;
+	font-size:11px;
+	display:block;
+}
+#vtem_menu li.active a {
+    color: #fff !important;
+}
+#vtem_menu ul li a span {
+	display:block;
+	padding:0px 11px 0px 0px;/*padding right from main menu*/
+	_float:left;
+}
+#vtem_menu ul li ul li a span { padding:0px 20px 0px 0px;}
+#vtem_menu ul.menu_vtem_dropline li ul li a span {
+    display: block;
+    padding: 0px 5px 0px 0px;
+}
+#vtem_menu ul.menu_vtem_nav li a:hover, 
+#vtem_menu ul.menu_vtem_nav li.active a, 
+#vtem_menu ul.menu_vtem_nav li a.hover{/*ссылки в главном меню сайта*/
+	color:#ddd;
+	text-decoration:none;
+	background:#FFFFFF !important/*373c3d*/;
+}
+#vtem_menu ul.menu_vtem_nav li a:hover span, 
+#vtem_menu ul.menu_vtem_nav li.active a span, 
+#vtem_menu ul.menu_vtem_nav li a.hover span{
+	color:#F28A01;	
+	text-decoration:none;
+}
+
+#vtem_menu ul.menu_vtem_nav li.parent ul li a,
+#vtem_menu ul.menu_vtem_nav li ul li.active ul li a,
+#vtem_menu ul.menu_vtem_nav li ul li.active ul li a span,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current ul li a,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current ul li a span{background-color:#fff/*#373c3d*/; color:#777; }/*выпадающее меню*/
+*/
+#vtem_menu ul.menu_vtem_nav li ul li.active a,
+#vtem_menu ul.menu_vtem_nav li ul li.active a span,
+#vtem_menu ul.menu_vtem_nav li ul li a.hover span,
+#vtem_menu ul.menu_vtem_nav li ul li.active a.hover span{color:#fff;  }
+
+#vtem_menu ul.menu_vtem_nav li.parent ul li a span{background:none; color:#883a06;}
+
+#vtem_menu ul.menu_vtem_nav li.parent ul li a:hover span,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current a span,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current a:hover span{background:none; color:#fff;}
+
+#vtem_menu ul.menu_vtem_nav li ul li.active a,
+#vtem_menu ul.menu_vtem_nav li ul li.active a span,
+#vtem_menu ul.menu_vtem_nav li ul li a.hover span,
+#vtem_menu ul.menu_vtem_nav li ul li.active a.hover span{ color:#fff;}
+ 
+#vtem_menu ul.menu_vtem_dropline li a:hover,
+#vtem_menu ul.menu_vtem_dropline li a:hover span,
+#vtem_menu ul.menu_vtem_dropline li.vtemHover ul li a:hover,
+#vtem_menu ul.menu_vtem_dropline li.parent ul li#current a,
+#vtem_menu ul.menu_vtem_dropline li.parent ul li.active a,
+#vtem_menu ul.menu_vtem_dropline li:hover ul{ background:#444; text-decoration:none; /*color:none#fff;*/}
+
+#vtem_menu ul.menu_vtem_nav li.vtemHover ul,
+#vtem_menu ul.menu_vtem_nav li.sfHover ul,
+#vtem_menu ul.menu_vtem_nav li.parent ul{top:86px;width:220px;}
+#vtem_menu ul.menu_vtem_nav li.parent ul li ul,
+#vtem_menu ul.menu_vtem_nav li.parent ul li ul li ul{ top:0px;}
+#vtem_menu ul.menu_vtem_dropline li.parent ul{top:63px;}
+#vtem_menu ul.menu_vtem_nav ul li{
+	padding:0;
+	margin:0px;
+	width:auto;
+	*padding:0px 0px 1px 0px !important;
+	*background:#373c3d;
+	border-bottom:1px thin #883a06;
+	border-top:1px solid #545b5d;
+}
+
+#vtem_menu ul.menu_vtem_dropline li ul li.active a span{ text-decoration:underline;} 
+#vtem_menu ul.menu_vtem_nav ul li a,
+#vtem_menu ul.menu_vtem_nav ul li a:link,
+#vtem_menu ul.menu_vtem_nav ul li a:visited{
+	padding:2px 0px 2px 20px; 
+	text-transform:none; 
+	font-weight:normal;
+	/*background-image:url(../images/li_arrow1.gif) !important;*/
+	background-repeat:no-repeat;
+	background-position:5px center !important;
+}
+#vtem_menu ul.menu_vtem_nav ul li a:hover,
+#vtem_menu ul.menu_vtem_nav ul li a.hover:hover,
+#vtem_menu ul.menu_vtem_nav ul li.active a.ahover,
+#vtem_menu ul.menu_vtem_nav ul li#current a,
+#vtem_menu ul.menu_vtem_nav ul li#current a:hover,
+#vtem_menu ul.menu_vtem_nav ul li a.hover,
+#vtem_menu ul.menu_vtem_nav li ul li.active a,
+/*#vtem_menu ul.menu_vtem_nav ul li ul li#current a{background-image:url(../images/li_arrow11.gif) !important;}*/
+
+#vtem_menu ul.menu_vtem_nav li.parent ul li a{padding-left:20px !important;}
+#vtem_menu ul.menu_vtem_nav li#current ul li a{padding-left:20px !important;}
+
+span.vtem_menu_plus{ display:none !important; overflow:hidden; }
+
+.menu_vtem_nav ul li.vtem_ul_arrow{ display:none !important; border:0px !important;}
+
+#vt_menu_footer ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+#vt_menu_footer ul li{float:left;}
+#vt_menu_footer ul li a,#vt_menu_footer ul li a:link,#vt_menu_footer ul li a:visited{
+	color:#999;
+	font-weight:bold;
+	float:left;
+	padding: 0 10px;
+	background:none;
+}
+#vt_menu_footer ul li a:hover,
+#vt_menu_footer ul li.active a,
+#vt_menu_footer ul li a#active_menu-nav{color:#bbb; text-decoration:underline;}
+
+#mainlevel li{
+margin:5px 0;
+}
+#mainlevel li a{
+	text-decoration:none;
+	font-weight:bold;
+}

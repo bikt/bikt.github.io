@@ -1,0 +1,43 @@
+.dropcap,a:link,a:visited,.menu a:hover,#current a,
+#page .contentheading,#current ul li a:hover, .mostread a:hover{
+color:#af5632;/*f28a01*/ /*цвет блоков заголовков на главной*/
+text-decoration:none;
+}
+a:hover{text-decoration:underline;}
+
+#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 a.dm_selected{border-top:1px solid #f28a01; color:#af5632; /*цвет заголовка "Свежие новости"*/} 
+
+#vtem_menu ul.menu_vtem_nav li a:hover,
+#vtem_menu ul.menu_vtem_nav li.active a,
+#vtem_menu ul.menu_vtem_nav li a.hover{border-bottom:6px solid #f28a01;}
+
+#vtem_menu ul.menu_vtem_nav li li a:hover,
+#vtem_menu ul.menu_vtem_nav li.active li a, 
+#vtem_menu ul.menu_vtem_nav li li a.hover{border-bottom:0px;}
+
+#vtem_menu ul.menu_vtem_nav ul li a:hover,
+#vtem_menu ul.menu_vtem_nav ul li a.hover:hover,
+#vtem_menu ul.menu_vtem_nav ul li#current a,
+#vtem_menu ul.menu_vtem_nav ul li#current a:hover,
+#vtem_menu ul.menu_vtem_nav ul li a.hover,
+#vtem_menu ul.menu_vtem_nav li ul li a.hover,
+#vtem_menu ul.menu_vtem_nav li.active ul li a.hover,
+#vtem_menu ul.menu_vtem_nav li ul li.active a,
+#vtem_menu ul.menu_vtem_nav ul li.active a.hover,
+#vtem_menu ul.menu_vtem_nav li.parent ul li a:hover span,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current a span,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current a:hover span,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current ul li a:hover,
+#vtem_menu ul.menu_vtem_nav li.parent ul li#current ul li a span:hover,
+#vtem_menu ul.menu_vtem_nav ul li ul li#current a,
+#vtem_menu ul.menu_vtem_dropline li.active a span,
+#vtem_menu ul.menu_vtem_dropline li.vtem_hover a span,
+#vtem_menu ul.menu_vtem_dropline li.active a,
+#vtem_menu ul.menu_vtem_dropline li.vtem_hover a{ background-color:#f28a01; }
+#vtem_menu ul.menu_vtem_dropline li.active ul{background-color:#f28a01 !important; display:block !important;}
+
+
+
+
+
+	
